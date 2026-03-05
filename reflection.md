@@ -8,6 +8,17 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 - List at least two concrete bugs you noticed at the start  
   (for example: "the secret number kept changing" or "the hints were backwards").
 
+- Answers:
+  - Q1:
+    -
+  - Q2: 
+    - It let us input negative numbers and 0, I expected it to throw an error
+      - When I guessed a negative number it said to go lower, I thought the hint would be accurate and helpful
+      - We could guess the same number twice, I assumed it would say pick a new number
+      - The new game button didnt work, I thought it would refresh the game state
+      - The tracker for attempts is off by one, I didnt notice at first but it should be one less than it is
+      - The hint doesnt seem to help, I thought the hints would point towards numbers within the bounds.
+
 ---
 
 ## 2. How did you use AI as a teammate?
@@ -15,6 +26,13 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 - Which AI tools did you use on this project (for example: ChatGPT, Gemini, Copilot)?
 - Give one example of an AI suggestion that was correct (including what the AI suggested and how you verified the result).
 - Give one example of an AI suggestion that was incorrect or misleading (including what the AI suggested and how you verified the result).
+
+- Answers:
+  - I used claude for this 
+
+  - An example of a correct suggestion was when 
+
+  - One example of a misleading suggestion is when the AI tried to fix, it just fixed one aspect and didnt realise it created or didnt find a bug that the fix caused. I was trying to fix the hints and it just fixed the fact the hints were being given in reverse order, not the fact that they were based on if the number was even or odd.
 
 ---
 
