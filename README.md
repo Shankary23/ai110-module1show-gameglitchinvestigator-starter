@@ -26,12 +26,23 @@ It wrote the code, ran away, and now the game is unplayable.
 ## 📝 Document Your Experience
 
 - [ ] Describe the game's purpose.
+   - Purpose was to basically play a guess that number game
 - [ ] Detail which bugs you found.
+   - The bugs I found were:
+      - Hints not working
+      - The game allowed the user to make guesses that were not in the bounds.
+      - The new game button didnt work
+      - The guesses often went to negative 1
 - [ ] Explain what fixes you applied.
+   - The fixes applied were, first, to modify the hints section to make it give a hint based on the target number and the user input.
+   Then fixed the fact that the hints were going based on the numbers divisibility rather than the number itself.
+   Then applied a fix to limit user input and reprompt when a guess outside the bounds were made.
+   Next fix was to reset the game state when the. user clicked the new game button.
 
 ## 📸 Demo
 
 - [ ] [Insert a screenshot of your fixed, winning game here]
+![Winning screenshot](image.png)
 
 ## 🚀 Stretch Features
 
